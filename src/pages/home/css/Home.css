@@ -1,0 +1,16 @@
+.PageRecord, .PageRecordDetails {
+    padding: 20px;
+}
+
+.PageRecord .slds-page-header__detail-row {
+    display: none;
+}
+
+.PageRecordDetails .slds-tabs_scoped {
+    padding-top: 20px;
+}
+
+.empty-content {
+    background:#fafaf9;
+    min-height: calc(100vh - 300px);
+}

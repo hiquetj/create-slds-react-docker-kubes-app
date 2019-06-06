@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: deploy-react-kubernetes-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+      - name: deploy-react-kubernetes
+        image: svc-cypress:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 4444

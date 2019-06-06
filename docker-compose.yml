@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+
+  svc-cypress:
+    image: lpperf/svc-cypress:0.0.3
+    ports:
+      - '8184:8184'
+    environment:
+      - PWM_HOST=10.225.241.46
+      - PWM_PORT=8187

@@ -1,0 +1,17 @@
+.container {
+    display: block;
+    background-image: url(./lightning-design-system/images/themes/oneSalesforce/banner-brand-default.png),linear-gradient(to top,rgba(32,92,159,0),rgb(32,92,159)) !important;
+    overflow: hidden !important;
+    min-height: calc(100vh - 10px)
+}
+
+#footer {
+    height:10px;
+    margin: 0;
+    clear: both;
+    width:100%;
+}
+
+html,body{
+    height: 100%
+}

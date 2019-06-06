@@ -1,0 +1,1 @@
+docker build -t lpperf/svc-cypress:0.0.3 .

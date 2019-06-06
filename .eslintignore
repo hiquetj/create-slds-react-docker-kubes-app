@@ -1,0 +1,9 @@
+# /node_modules/* and /bower_components/* in the project root are ignored by default
+
+# Ignore built files except build/index.js
+dist/*
+src/design-system-react/*
+src/lightning-design-system/*
+src/server/client/*
+src/server/server-dev.js
+src/server/server-prod.js
